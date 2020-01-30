@@ -1,0 +1,70 @@
+#menu-section {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 15px 280px 0px 120px;
+  position: absolute;
+  display: grid;
+  grid-template-rows: 100% 100% 100%;
+}
+
+.menuTitle {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  margin: -5px 0px;
+}
+
+.list {
+  column-count: 2;
+}
+
+.list1, .list2, .list3, .list4, .list5{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+  padding: 7px 0px 7px 0px;
+  font-weight: 500;
+}
+
+
+.item-name {
+  font-family: 'Josefin Sans', sans-serif;
+  color:black;
+  font-size: 12px;
+  font-weight: 500;
+  width:80%;
+  padding: 5px 0px;
+  float:left;
+}
+
+.item-description {
+  color: black;
+  font-size: 10px;
+  width:90%;
+  padding:0px 0px 8px 0px;
+  font-weight: 200;
+}
+
+.item-price {
+  color: black;
+  font-size: 10px;
+  font-weight:500;
+  padding: 5px 0px;
+}
+
+.menuButton{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 12px;
+  padding: 8px;
+  margin: 8px 8px 8px 0px;
+  font-weight:500;
+  color:	rgb(64,64,64);
+}
+.menuButtonTrue{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 12px;
+  padding: 8px;
+  margin: 8px 8px 8px 0px;
+  font-weight:500;
+  color:	rgb(64,64,64);
+  outline: red auto 2px;
+}
+

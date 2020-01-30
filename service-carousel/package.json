@@ -1,0 +1,65 @@
+{
+  "name": "opentable-imagecarousel-service",
+  "description": "> Project description",
+  "author": "Dan Xu",
+  "license": "ISC",
+  "engines": {
+    "node": ">=6.13.0"
+  },
+  "scripts": {
+    "build": "webpack --watch",
+    "start": "nodemon server/index.js --watch",
+    "seed": "node database/seed.js",
+    "jest": "./node_modules/.bin/jest"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.7.7",
+    "body-parser": "^1.19.0",
+    "cassandra-driver": "^4.3.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "dotenv-safe": "^8.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "jest": "^24.9.0",
+    "jquery": "^3.4.1",
+    "mongoose": "^5.8.4",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2",
+    "pg": "^7.17.0",
+    "prop-types": "^15.7.2",
+    "puppeteer": "^2.0.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-transition-group": "^1.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor.git",
+    "resize-observer-polyfill": "^1.5.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "version": "1.0.0",
+  "main": "server/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrr42-fec-team1/opentable-imagecarousel-service.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hrr42-fec-team1/opentable-imagecarousel-service/issues"
+  },
+  "homepage": "https://github.com/hrr42-fec-team1/opentable-imagecarousel-service#readme"
+}
